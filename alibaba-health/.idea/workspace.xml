@@ -17,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="dev" />
+        <entry key="$PROJECT_DIR$/.." value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -46,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/health_backend/src/main/java/com/itheima/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/health_service_provider/src/main/resources/com/itheima/dao" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -162,7 +162,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593871047568</updated>
-      <workItem from="1593871050349" duration="5100000" />
+      <workItem from="1593871050349" duration="5360000" />
     </task>
     <task id="LOCAL-00001" summary="增加spring-security配置文件">
       <created>1593871369727</created>
@@ -178,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593874188170</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="增加dao文件">
+      <created>1593876247075</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593876247075</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +205,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加spring-security配置文件" />
     <MESSAGE value="修改加spring-security配置文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改加spring-security配置文件" />
+    <MESSAGE value="增加dao文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加dao文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="350" y="39" key="CommitChangelistDialog2" timestamp="1593876175463">
