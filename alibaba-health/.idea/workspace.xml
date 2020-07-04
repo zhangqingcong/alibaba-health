@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="44b480f4-362e-448c-892f-1e0e4f9e794d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/health_backend/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/health_backend/src/main/resources/springmvc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="master" />
+        <entry key="$PROJECT_DIR$/.." value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -165,7 +164,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593871047568</updated>
-      <workItem from="1593871050349" duration="4120000" />
+      <workItem from="1593871050349" duration="4648000" />
     </task>
     <task id="LOCAL-00001" summary="增加spring-security配置文件">
       <created>1593871369727</created>
