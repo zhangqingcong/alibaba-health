@@ -117,11 +117,15 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/health_backend/src/main/java/com/itheima/service" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/health_backend/src/main/webapp" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itheima.service.impl" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\alibaba-health\health_service_provider\src\main\resources\com\itheima\dao" />
       <recent name="D:\IdeaProjects\alibaba-health\health_backend\src\main\java\com\itheima\service" />
     </key>
   </component>
