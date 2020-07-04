@@ -1,7 +1,12 @@
 D:\IdeaProjects\alibaba-health\health_service_provider\src\main\java\com\itheima\service\impl\OrderSettingServiceImpl.java
-D:\IdeaProjects\alibaba-health\health_service_provider\src\main\java\com\itheima\service\impl\CheckGroupServiceImpl.java
 D:\IdeaProjects\alibaba-health\health_service_provider\src\main\java\com\itheima\dao\CheckItemDao.java
 D:\IdeaProjects\alibaba-health\health_service_provider\src\main\java\com\itheima\dao\SetmealDao.java
+D:\IdeaProjects\alibaba-health\health_service_provider\src\main\java\com\itheima\service\impl\UserServiceImpl.java
+D:\IdeaProjects\alibaba-health\health_service_provider\src\main\java\com\itheima\dao\UserDao.java
+D:\IdeaProjects\alibaba-health\health_service_provider\src\main\java\com\itheima\service\impl\SetmealServiceImpl.java
+D:\IdeaProjects\alibaba-health\health_service_provider\src\main\java\com\itheima\dao\PermissionDao.java
+D:\IdeaProjects\alibaba-health\health_service_provider\src\main\java\com\itheima\service\impl\CheckGroupServiceImpl.java
+D:\IdeaProjects\alibaba-health\health_service_provider\src\main\java\com\itheima\dao\RoleDao.java
 D:\IdeaProjects\alibaba-health\health_service_provider\src\main\java\com\itheima\service\impl\CheckItemServiceImpl.java
 D:\IdeaProjects\alibaba-health\health_service_provider\src\main\java\com\itheima\dao\OrderDao.java
 D:\IdeaProjects\alibaba-health\health_service_provider\src\main\java\com\itheima\dao\OrderSettingDao.java
@@ -9,4 +14,3 @@ D:\IdeaProjects\alibaba-health\health_service_provider\src\main\java\com\itheima
 D:\IdeaProjects\alibaba-health\health_service_provider\src\main\java\com\itheima\service\impl\MemberServiceImpl.java
 D:\IdeaProjects\alibaba-health\health_service_provider\src\main\java\com\itheima\dao\CheckGroupDao.java
 D:\IdeaProjects\alibaba-health\health_service_provider\src\main\java\com\itheima\dao\MemberDao.java
-D:\IdeaProjects\alibaba-health\health_service_provider\src\main\java\com\itheima\service\impl\SetmealServiceImpl.java
