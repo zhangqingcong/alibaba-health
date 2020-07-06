@@ -9,6 +9,7 @@
     <filter>
         <filter-name>CharacterEncodingFilter</filter-name>
         <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+<!--        设置过滤中的属性值-->
         <init-param>
             <param-name>encoding</param-name>
             <param-value>utf-8</param-value>
@@ -32,7 +33,7 @@
             <param-value>true</param-value>
         </init-param>
     </filter>
-
+<!--解决乱码的映射 过滤所有请求-->
     <filter-mapping>
         <filter-name>CharacterEncodingFilter</filter-name>
         <url-pattern>/*</url-pattern>
@@ -42,14 +43,17 @@
         <filter-name>springSecurityFilterChain</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
+<!--servlet是SpringMvc的核心控制器-->
     <servlet>
         <servlet-name>springmvc</servlet-name>
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
-        <!-- 指定加载的配置文件 ，通过参数contextConfigLocation加载 -->
+        <!-- 配置初始化参数 用来加载的指定的是SpringMvc配置文件 ，通过参数contextConfigLocation加载 -->
         <init-param>
             <param-name>contextConfigLocation</param-name>
-            <param-value>classpath:springmvc.xml,classpath:spring-security.xml</param-value>
+<!--            <param-value>classpath:springmvc.xml,classpath:spring-security.xml</param-value>-->
+            <param-value>classpath:springmvc.xml</param-value>
         </init-param>
+<!--        配置servlet的对象的创建时间点：应用加载时创建。取值只能是非0正整数，表示启动顺序-->
         <load-on-startup>1</load-on-startup>
     </servlet>
     <servlet-mapping>
