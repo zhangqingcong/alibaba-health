@@ -236,6 +236,16 @@
             this.findPage();//VUE对象初始化完成后调用分页查询方法，完成分页查询 页面效果是一加载就有数据
         },
         methods: {
+            showMessage(r){
+              if (r=='Error: Request failed with status code 403'){
+                  //权限不足
+                  this.$message.error('当前用户权限不足，请联系管理员');
+                  return;
+              }else {
+                  this.$message.error('未知错误');
+                  return;
+              }
+            },
             //编辑按钮弹窗
             handleEdit() {
                 //进行表单校验
@@ -371,6 +381,8 @@
                             //执行失败
                             this.$message.error(res.data.message);
                         }
+                    }).catch((r)=>{
+                        this.showMessage(r);
                     });
                 }).catch(() => {
                     this.$message({
@@ -378,7 +390,6 @@
                         message: '已取消删除'
                     });
                 });
-
             }
         }
     })
