@@ -4,6 +4,7 @@ import com.alibaba.dubbo.config.annotation.Reference;
 import com.itheima.constant.MessageConstant;
 import com.itheima.entity.Result;
 import com.itheima.service.MemberService;
+import com.itheima.service.ReportService;
 import com.itheima.service.SetmealService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -21,6 +22,11 @@ public class ReportController {
     private MemberService memberService;
     @Reference
     private SetmealService setmealService;
+    /**
+     * 获取的数据比较复杂 无法对应POJO 所以新建一个服务接口
+     */
+    @Reference
+    private ReportService reportService;
 
     /**
      * 查询会员信息折线表
@@ -65,6 +71,23 @@ public class ReportController {
         }catch (Exception e){
             e.printStackTrace();
             return new Result(false,MessageConstant.GET_SETMEAL_COUNT_REPORT_FAIL);
+        }
+    }
+
+    /**
+     * 运营数据统计
+     * @return
+     */
+    @RequestMapping("/getBusinessReportData")
+    public Result getBusinessReportData(){
+        try {
+            //用一个string object的map来构建返回的值
+            Map<String,Object> result = new HashMap<>();
+            result = reportService.getBusinessReportData();
+            return new Result(true,MessageConstant.GET_BUSINESS_REPORT_SUCCESS,result);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return new Result(false,MessageConstant.GET_BUSINESS_REPORT_FAIL);
         }
     }
 

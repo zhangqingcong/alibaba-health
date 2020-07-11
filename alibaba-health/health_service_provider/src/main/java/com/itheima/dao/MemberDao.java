@@ -22,4 +22,24 @@ public interface MemberDao {
      * @return
      */
     Integer findMemberCountBeforeDate(String month);
+
+    /**
+     * 查询当日会员数
+     * @param today
+     * @return
+     */
+    Integer findMemberCountByDate(String today);
+
+    /**
+     * 查询总会员数
+     * @return
+     */
+    Integer findMemberTotalCount();
+
+    /**
+     * 本月新增会员数
+     * @param firstDay4ThisMonth
+     * @return
+     */
+    Integer findMemberCountAfterDate(String firstDay4ThisMonth);
 }
