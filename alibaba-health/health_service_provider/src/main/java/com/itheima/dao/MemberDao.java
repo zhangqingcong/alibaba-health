@@ -15,4 +15,11 @@ public interface MemberDao {
      * @param member
      */
     void add(Member member);
+
+    /**
+     * 根据月份查询会员数量
+     * @param month
+     * @return
+     */
+    Integer findMemberCountBeforeDate(String month);
 }

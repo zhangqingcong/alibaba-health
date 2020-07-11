@@ -1,0 +1,20 @@
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <!-- 加载spring容器 -->
+<!--  手动指定spring配置文件的位置-->
+  <context-param>
+    <param-name>contextConfigLocation</param-name>
+    <param-value>classpath*:spring*.xml</param-value>
+  </context-param>
+
+<!--  整合Spring和SpringMvc-->
+<!--  配置监听器实现启动服务创建容器-->
+  <!--配置spring提供的监听器，用于启动服务器时加载容器。该监听器只能加载WEB-INF目录中名称为applicationContext.xml的配置文件，所以需要手动指定spring配置文件的位置-->
+  <listener>
+    <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+  </listener>
+</web-app>
