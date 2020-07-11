@@ -34,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="dev" />
+        <entry key="$PROJECT_DIR$/.." value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -234,7 +234,7 @@
       <workItem from="1594257803547" duration="4284000" />
       <workItem from="1594343894150" duration="4586000" />
       <workItem from="1594471999127" duration="1532000" />
-      <workItem from="1594475926158" duration="724000" />
+      <workItem from="1594475926158" duration="1062000" />
     </task>
     <task id="LOCAL-00002" summary="退出登录功能实现">
       <created>1594029121902</created>
@@ -264,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594476489500</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="拯救dev">
+      <created>1594476685807</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594476685807</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,10 +337,10 @@
       <screen x="0" y="0" width="1463" height="874" />
     </state>
     <state x="537" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1463.874@0.0.1463.874" timestamp="1594201558233" />
-    <state x="276" y="37" key="CommitChangelistDialog2" timestamp="1594476449009">
+    <state x="276" y="37" key="CommitChangelistDialog2" timestamp="1594476685184">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state x="276" y="37" key="CommitChangelistDialog2/0.0.1463.874@0.0.1463.874" timestamp="1594476449009" />
+    <state x="276" y="37" key="CommitChangelistDialog2/0.0.1463.874@0.0.1463.874" timestamp="1594476685184" />
     <state x="512" y="196" key="FileChooserDialogImpl" timestamp="1594024435653">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
@@ -378,10 +385,10 @@
       <screen x="0" y="0" width="1463" height="874" />
     </state>
     <state x="235" y="31" key="SettingsEditor/0.0.1463.874@0.0.1463.874" timestamp="1594476664933" />
-    <state x="324" y="174" key="Vcs.Push.Dialog.v2" timestamp="1594476084960">
+    <state x="324" y="174" key="Vcs.Push.Dialog.v2" timestamp="1594476873189">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
-    <state x="324" y="174" key="Vcs.Push.Dialog.v2/0.0.1463.874@0.0.1463.874" timestamp="1594476084960" />
+    <state x="324" y="174" key="Vcs.Push.Dialog.v2/0.0.1463.874@0.0.1463.874" timestamp="1594476873189" />
     <state x="158" y="175" key="VcsDiffUtil.ChangesDialog" timestamp="1594476194098">
       <screen x="0" y="0" width="1463" height="874" />
     </state>
